@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Food Website</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/foodlogo.jpg" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark gradient-bg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/foodlogo.jpg" alt="Delicious Food Logo" width="40" height="40" class="d-inline-block align-text-top">
+                <span class="brand-text">DELICIOUS FOOD</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>WELCOME TO DELICIOUS FOOD</h1>
+            <p class="lead">ENJOY DELICIOUS DISHES MAKE WITH LOVE AND CARE FOR AN UNFORGETTABLE TASTE EXPERIENCE!</p>
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container text-center my-5">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>WELCOME TO DELICIOUS FOOD, WHERE WE CRAFT MOUTHWATERING, HIGH-QUALITY MEALS. OUR PASSION IS TO DELIVER UNFORGETTABLE CULINARY EXPERIENCES TO FOOD ENTHUSIASTS AROUND THE WORLD
+            </p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>FRESH INGREDIENTS</h4>
+                        <p>We use only the freshest ingredients to create dishes bursting with flavor.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>EXPERT CHEFS</h4>
+                        <p>Our chefs bring years of experience and creativity to every dish.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box">
+                        <h4>COZY AMBIANCE</h4>
+                        <p>Enjoy your meal in a warm and inviting atmosphere designed for comfort.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#menu" class="btn btn-warning mt-4">Explore Our Menu</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="container my-5">
+        <h2 class="text-center">OUR MENU</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card shadow-sm menu-card">
+                    <img src="images/creamy-pesto-pasta.jpg" class="card-img-top img-fluid" alt="Pasta">
+                    <div class="card-body">
+                        <h5 class="card-title">CREAMY PASTA</h5>
+                        <p class="card-text">Rich and creamy pasta made with fresh ingredients.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm menu-card">
+                    <img src="images/Big-Juicy-Burgers.jpg" class="card-img-top img-fluid" alt="Burger">
+                    <div class="card-body">
+                        <h5 class="card-title">JUICY BURGER</h5>
+                        <p class="card-text">A classic burger with a juicy patty and fresh toppings.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm menu-card">
+                    <img src="images/40-delicious-desserts.jpg" class="card-img-top img-fluid" alt="Dessert">
+                    <div class="card-body">
+                        <h5 class="card-title">DELICIOUS DESSERT</h5>
+                        <p class="card-text">Indulge in our heavenly dessert creations.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="container my-5">
+        <h2 class="text-center">Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2025 <span class="highlight">Delicious Food</span>. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

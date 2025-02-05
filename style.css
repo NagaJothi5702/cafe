@@ -1,0 +1,218 @@
+/* General body styles */
+body {
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;  /* Use Poppins for consistency */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #645555;
+    padding: 20px 0;
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .brand-text {
+    font-weight: 700; 
+    color: white; 
+    margin-left: 10px;
+    font-size: 1.4rem; 
+}
+
+/* Navbar Links */
+.navbar .nav-link {
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* About Us Section */
+#about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+#about .feature-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+#about .feature-box h4 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #f39c12;
+    margin-bottom: 20px;
+}
+
+/* Menu Cards */
+.menu-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f8f9fa;
+}
+
+.menu-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.menu-card .card-body {
+    padding: 20px;
+}
+
+.menu-card .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Contact Us Section */
+#contact {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #444;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+#contact .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    background-color: #555;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+#contact button {
+    background-color: #f39c12;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #e67e22;
+}
+
+/* Footer */
+.footer {
+    background-color: #645555;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer p {
+    font-size: 1.2rem;
+}
+
+.footer .highlight {
+    color: #f39c12;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+}
+
+.footer .social-icon {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer .social-icon:hover {
+    color: #f39c12;
+}
